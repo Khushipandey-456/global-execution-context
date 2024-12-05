@@ -1,4 +1,4 @@
-var age=0; //crating a global variable
+var age=25; //crating a global variable
 // creating a displayAge function
 function displayAge() {
   console.log("old age -"+age);//consoling old Age
@@ -10,6 +10,6 @@ function changeAge(newAge){
     console.log("NewAge - "+ age);
 }
 //calling displayAge function
-displayAge(25);
+displayAge(age);
 //calling changeAge function
 changeAge(40);
